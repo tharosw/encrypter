@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DECRYPTOR</title>
+</head>
+
+<body>
+    
+    <header>
+            <h1 class="header">Bienvenido a nuesta página de encriptado de texto</h1>
+    </header>
+    
+    <h2 class="subt">Aquí podrás encriptar y desencriptar el texto que desees !!!</h2>
+    <p class="texto">Por favor, ingresa solo letras minúsculas y sin acentos</p>
+    <main class="main">
+
+    <div class="container">
+        <div>
+            <input class="cuadro__texto" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+               <div class="container__texto">
+               <p class="texto__parrafo"></p>
+               </div>
+               <div class="chute container__botones">
+               <input class="boton" type="button" value="Encriptar" id="btn-encriptar">
+               <input class="boton" type="button" value="Desencriptar" id="btn-desencriptar">
+               </div>
+            </div>
+         </div>
+    </div>
+
+    <div class="container">
+            <div>
+               <input class="cuadro__texto__salida" type="text" id="msg">
+               <div class="container__texto">
+               </div>
+               <div class="chute container__botones">
+               <input class="boton" type="button" value="copiar" id="boton__copy">
+               </div>
+            </div>
+         </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</main>
+</body>
+</html>
